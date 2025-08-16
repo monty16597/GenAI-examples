@@ -11,7 +11,11 @@ pip install -r requirements.txt
 - Install jupyter notebook if you want to run the examples interactively:
 ```bash
 pip install jupyter
-``` 
+```
+- Add `.env` file. Refer `.env.sample` file. Add your Google API key:
+```bash
+cp .env.sample .env
+```
 - Run the following command to start the Jupyter notebook:
 ```bash
 jupyter notebook
